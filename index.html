@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nexomta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #1a1a1a;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 2px solid #2ecc71;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2ecc71;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .script-list {
+            list-style: none;
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .script-item {
+            background: #262626;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .script-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .script-item a {
+            color: #2ecc71;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .script-item a:hover {
+            text-decoration: underline;
+        }
+
+        .description {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        footer a {
+            color: #2ecc71;
+            text-decoration: none;
+        }
+
+        /* 404 Sayfası Stilleri */
+        .not-found {
+            text-align: center;
+            padding: 5rem 0;
+        }
+
+        .not-found h2 {
+            font-size: 4rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nexomtablo Server Paketleri</h1>
+        </header>
+
+        <ul class="script-list">
+            <li class="script-item">
+                <a href="https://dosya.co/0larfr4owa2l/spawn.rar.html" target="_blank">Hastane Spawn</a>
+                <div class="description">hastane yakınında doğma scripti</div>
+            </li>
+            
+            <li class="script-item">
+                <a href="https://dosya.co/6dl49so8mpnf/Cloud_deathplay.rar.html" target="_blank">Cloud Deathplay</a>
+                <div class="description">Ölüm olayları ve bulut sistemi</div>
+            </li>
+            
+            <li class="script-item">
+                <a href="https://drive.google.com/file/d/1Z22nzR6WQJ0A9U-gQ1BG5-ZxPDaYMHdf/view" target="_blank">CNR Gamemode</a>
+                <div class="description">Cops and Robbers gamemode</div>
+            </li>
+            
+            <li class="script-item">
+                <a href="https://s6.dosya.tc/server22/8ntmdq/deathmatch.rar.html" target="_blank">Ezel Freeroam</a>
+                <div class="description">Deathmatch ve freeroam scripti</div>
+            </li>
+        </ul>
+
+        <footer>
+            <a href="https://wynsher.github.io" target="_blank">by Wynsher</a> | Tüm hakları saklıdır
+        </footer>
+    </div>
+
+    <!-- 404 Sayfası -->
+    <div class="container not-found" style="display: none;">
+        <h2>404</h2>
+        <p>Aradığınız sayfa bulunamadı.</p>
+        <a href="/">Ana sayfaya dön</a>
+    </div>
+</body>
+</html>
